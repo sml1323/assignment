@@ -18,7 +18,7 @@
    - 이 API는 FastAPI의 자동 생성 문서를 통해 더욱 자세한 명세를 확인할 수 있습니다.
    - 서버 실행 후 `http://127.0.0.1:8000/docs` 로 접속하여 대화형 API 문서를 사용해보세요.
    - 
-     예: `![API Docs Screenshot](./images/image.png)`
+     예: ![API Docs Screenshot](./images/image.png)
    - 주요 엔드포인트:
      - **GET /trademarks**
        - 설명: 다양한 조건으로 상표 정보를 검색하고, 페이지네이션된 결과를 반환합니다.
@@ -48,7 +48,7 @@
         ```
         (여기서 `main`은 파이썬 파일명, `app`은 FastAPI 인스턴스명입니다.)
    5. **API 접속 및 테스트**:
-      - 웹 브라우저 또는 API 테스트 도구 (Postman 등)를 사용하여 아래 주소로 접속합니다.
+      - 웹 브라우저 또는 API 테스트 도구를 사용하여 아래 주소로 접속합니다.
         - API 문서 (Swagger UI): `http://127.0.0.1:8000/docs`
         - API 문서 (ReDoc): `http://127.0.0.1:8000/redoc`
         - 예시 API 호출: `http://127.0.0.1:8000/trademarks?status=등록&limit=5`
