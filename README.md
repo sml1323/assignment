@@ -18,7 +18,6 @@
    - 이 API는 FastAPI의 자동 생성 문서를 통해 더욱 자세한 명세를 확인할 수 있습니다.
    - 서버 실행 후 `http://127.0.0.1:8000/docs` 로 접속하여 대화형 API 문서를 사용해보세요.
    - 예: ![API Docs Screenshot](./images/image.png)
-   - ![API Docs Screenshot](./images/redoc.png)
 
    - 주요 엔드포인트:
      - **GET /trademarks**
